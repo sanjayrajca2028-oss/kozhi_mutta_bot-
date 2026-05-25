@@ -39,7 +39,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ── CONFIG ──────────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8997498192:AAES4jRvnYTqS-AIEKO7eOV-HWmTLjQP0fc")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 DATA_FILE  = "egg_data.json"
 IST        = timezone(timedelta(hours=5, minutes=30))  # India Standard Time
 
